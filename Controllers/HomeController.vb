@@ -6,4 +6,10 @@
 
         Return View()
     End Function
+    Function About() As ActionResult
+        ViewData("Title") = "Descripcion de pagina"
+        Return View()
+    End Function
+
+
 End Class

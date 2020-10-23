@@ -22,8 +22,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Inicio", "Index", "Home", New With { .area = "" }, Nothing)</li>
-                    <li>@Html.ActionLink("API", "Index", "Help", New With { .area = "" }, Nothing)</li>
+                    <li>@Html.ActionLink("Inicio", "Index", "Home", New With {.area = ""}, Nothing)</li>
+                    <li>@Html.ActionLink("Acerca de", "About", "Home", New With {.area = ""}, Nothing)</li>
+                    <li>@Html.ActionLink("API", "Index", "Help", New With {.area = ""}, Nothing)</li>
                 </ul>
             </div>
         </div>
